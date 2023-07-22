@@ -1,0 +1,30 @@
+.form {
+}
+
+.form form {
+  width: 90%;
+}
+
+.form p {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.form label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #8c6735;
+}
+
+.form input {
+  font-size: 17px;
+  padding: 5px 10px;
+  border: none;
+  margin-top: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.form input:focus {
+  outline: none;
+}
